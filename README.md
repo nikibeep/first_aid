@@ -1,4 +1,4 @@
-![Voice AI]([https://i.imgur.com/your-image-id](https://imgur.com/a/oVR0MtY.png)
+![Voice AI]([https://imgur.com/a/oVR0MtY.png])
 # first_aid_voice 
 The project aims to develop an AI-driven voice-assisted first aid and medical condition detection system to provide real-time rescue techniques to bystanders during emergencies.
 This project demonstrates the implementation of speech-to-text and text-to-speech functionality using Python and Google Cloud Text-to-Speech API. It also includes integration with Intel OneAPI for optimized execution on Intel hardware.
