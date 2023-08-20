@@ -3,6 +3,11 @@
 The project aims to develop an AI-driven voice-assisted first aid and medical condition detection system to provide real-time rescue techniques to bystanders during emergencies.
 This project demonstrates the implementation of speech-to-text and text-to-speech functionality using Python and Google Cloud Text-to-Speech API. It also includes integration with Intel OneAPI for optimized execution on Intel hardware.
 
+## Collaborators
+- [Aryan Raj](https://github.com/aryannrajj)
+- [Aditi Khurana](https://github.com/Aditi-12-04)
+- [Yogisha K](https://github.com/YogishaKP)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
