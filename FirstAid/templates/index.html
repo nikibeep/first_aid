@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Aid Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Add the viewport meta tag below -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container" id="chat-container">
+            <div class="chat-header">
+                <h2>First Aid Chatbot</h2>
+            </div>
+            <div class="chat-content" id="chat-content">
+                <!-- Chat messages will be displayed here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-button">Send</button>
+            </div>
+            <div class="audio-input">
+                <button id="record-button">Start Recording</button>
+                <audio id="response-audio" controls style="display: none;"></audio>
+                <input type="file" id="audio-file" accept="audio/wav" title="Upload Audio" style="display: none;">
+            </div>
+        </div>
+    </div>
+    <form id="chat-form" enctype="multipart/form-data" action="/process_uploaded_audio" method="post">
+        <!-- Hidden input to hold the audio file -->
+        <input type="file" id="audio-file-hidden" name="audio" style="display: none;">
+    </form>
+    <script src="{{ url_for('static', filename='chat.js') }}"></script>
+</body>
+</html>
