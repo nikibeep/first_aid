@@ -1,13 +1,19 @@
-<a href="https://ibb.co/7YKJZss"><img src="https://i.ibb.co/YRh71HH/speech.png" alt="speech" border="0"></a>
+<a href="https://ibb.co/6B2vjd8"><img src="https://i.ibb.co/4dcshQ2/speech.png" alt="speech" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 # first_aid_voice 
 The project aims to develop an AI-driven voice-assisted first aid and medical condition detection system to provide real-time rescue techniques to bystanders during emergencies.
 This project demonstrates the implementation of speech-to-text and text-to-speech functionality using Python and Google Cloud Text-to-Speech API. It also includes integration with Intel OneAPI for optimized execution on Intel hardware.
+
+## Collaborators
+- [Aryan Raj](https://github.com/aryannrajj)
+- [Aditi Khurana](https://github.com/Aditi-12-04)
+- [Yogisha K](https://github.com/YogishaKP)
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [Intel OneAPI Integration](#intel-oneapi-integration)
+- [Architecture Diagram](#Architecture-Diagram)
 - [Code Overview](#code-overview)
 - [Usage](#usage)
 - [Demo](#demo)
@@ -31,6 +37,10 @@ This project focuses on converting speech to text and vice versa. It uses the Go
 ## Intel OneAPI Integration
 
 The project leverages Intel OneAPI to optimize code execution on Intel hardware. Environment variables are set using `os.environ` to configure OneAPI options, enhancing the performance of the speech-to-text and text-to-speech processes.
+
+## Architecture Diagram
+
+<a href="https://ibb.co/std36vj"><img src="https://i.ibb.co/3k9hMy1/arch-dia-voice.png" alt="arch-dia-voice" border="0"></a>
 
 ## Code Overview
 
@@ -65,7 +75,7 @@ Solution: Setting appropriate environment variables to leverage OneAPI's perform
 
 ## Future Enhancements
 
-- Implement more advanced intent matching techniques.
+- Implement more advanced intent-matching techniques.
 - Extend support for multiple languages and accents.
 - Enhance error handling and user feedback.
 
