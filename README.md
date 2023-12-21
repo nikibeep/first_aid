@@ -40,7 +40,7 @@ The project leverages Intel OneAPI to optimize code execution on Intel hardware.
 
 ## Architecture Diagram
 
-<a href="https://ibb.co/std36vj"><img src="https://i.ibb.co/3k9hMy1/arch-dia-voice.png" alt="arch-dia-voice" border="0"></a>
+<a href="https://ibb.co/Gp4xxJR"><img src="https://ibb.co/Gp4xxJR/arch-dia-voice.png" alt="arch-dia-voice" border="0"></a>
 
 ## Code Overview
 
